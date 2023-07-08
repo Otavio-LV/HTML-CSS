@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* no html=id, no css=# */
+
+/*no html=class, no css=.  */
+
+/* quando queremos nos referir a uma tag especifica com um id, escrevemos a tag de dps o id exemplo h1#top, nesse exemplo o h1 é a tag e o #top é o id pertencente a ela. */
+body
+{
+    background-color: rgb(85, 135, 91);
+    font:normal normal 1em Sans-serif; 
+    text-align: justify;
+}
+h1#top
+{
+    background-color: rgb(86,135,91); width:400px ; margin: auto; color: rgb(250, 146, 67); border-radius: 40px; box-shadow: 5px 2.5px 15px;
+    text-shadow:2.5px 1.25px 0px rgb(67, 62, 62);
+}
+a{color:rgb(250, 146, 67);text-decoration: none;}
+h1{text-align: center;
+color: rgb(2, 56, 2); font-size: 2em;}
+h2{color: rgb(47, 62, 51); font-size: 1.5em; text-align: left;}
+p
+{text-indent:10px}
+
+main{background-color: rgb(253, 235, 200); padding: 20px; width: 700px;margin: auto; border-radius: 60px; box-shadow:15px 10px 30px rgb(37, 25, 4)} 

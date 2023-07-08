@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Great+Vibes&display=swap');
+@media(min-width:700px)
+{body
+    {
+        background-color: #a62b2b;
+    }
+}
+
+@media(max-width: 700px) 
+{
+    body {
+      background-color:#f6a306
+    }
+  }
+
+@media(min-width:700px)
+{main
+    {height: 100vh;}
+}
+
+@media(max-width:900px)
+{nav
+    {height: 14px; }
+}
+@media(min-width:900px)
+{nav
+    {height:20px;}
+}
+
+@media(max-width:900px)
+{#menu-mother, li
+    {font-size:1.7vw;}
+}
+@media(min-width:900px)
+{#menu-mother, li
+    {font-size:18px}
+}
+@media(max-width:650px)
+{#menu-mother, li
+    {font-size:10px}
+}
+
+
+/* fonte header*/
+@media(min-width:900px)
+{h1#menu
+    {font-size:25px}
+}
+@media(max-width:900px)
+{h1#menu
+    {font-size: 2.5vw;}
+}
+@media(max-width:650px)
+{h1#menu
+    {font-size: 18px;}
+}
+
+@media (min-width:900px)
+{aside
+    {margin-top:102px;}
+}
+@media (max-width:900px)
+{aside
+    {margin-top:96px;}
+}
+
+:root
+{
+    --titulos:#e4cea5d8;
+}
+:root
+{
+    --contraste:#f6a306;
+}
+
+/* media querry */
+
+/* global */
+*{
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.589) ;
+  }
+/* global */
+body
+{
+}
+/* parte de cima do cabeçalho (logo e etc...) */
+#menu-completo
+{
+    top:0px;
+    max-width: 100%;
+    width: 100%;;
+    position:fixed;
+}
+header
+{
+    padding: 0px 0px 7px 0px;
+    max-height: 75px;
+    height:75px;
+    text-align: center;
+    background-color: rgb(166, 43, 43);
+}
+.bar
+{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    border:solid var(--contraste);
+    border-width:2.5px 0px 0px 0px;
+}
+#bar1
+{
+ margin-top:10px;
+}
+#bar2
+{
+    margin-top: 25px;
+}
+#bar3
+{
+   margin-top: 40px;
+}
+img#logo
+{
+    max-width: 100%;
+    max-height:50px;
+    position: relative;
+}
+h1
+{
+    color:var(--titulos);
+    font-size:5vw;
+    font-family:'great vibes';
+}
+/* parte de cima do cabeçalho (logo e etc...) */
+
+/* barra colorida abaixo do cabeçalho */
+    /* obs ela fica por tras do menu (nav) */
+nav
+{
+    font-family: 'gfs diot';
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.514);
+    max-width: 100%;
+    background-color: rgb(109, 32, 32, 1);
+    color:var(--contraste);
+}
+nav a
+{
+
+    text-decoration: none;
+    color:var(--contraste)
+}
+/* barra colorida abaixo do cabeçalho */
+
+
+/* menu (parte sem interatividade)*/
+#menu-mother
+{
+    position:absolute;
+    margin: 0px;
+    color: var(--contraste);
+}
+li.sub
+{
+    margin: 0px 0px 0px 25%;
+    position: absolute;
+    display: inline;
+}
+#menu3
+{
+    margin: 0px 0px 0px 50%;
+}
+/* menu (parte sem interatividade)*/
+
+
+/* menu parte interativa */
+/*
+ .
+ .
+ . 
+*/
+
+/* camada 1 topicos */
+li#visivel
+{
+    padding-left: 10px;
+    margin-left: 1px;
+    max-height: 20px;
+    display: block;
+    background-color: rgb(109, 32, 32, 1);
+}
+li
+{
+    display: none;
+}
+ul#menu-mother:hover li.camada1
+{
+    width: 15vw;;
+    max-height: none;
+    display: block;
+}
+li#visivel:hover
+{
+    max-height: none;
+    border-bottom-right-radius: 10px ;
+}
+/* fim camada 1 topicos */
+/*
+.
+.
+. 
+*/
+
+/* camada2 sub-topicos */
+
+/* padaria */
+#menu-padaria:hover  .menu-padaria-sub
+{
+    display: block;
+}
+/* padaria */
+
+/* consimentos */
+#menu-condimentos:hover .menu-condimentos-sub
+{
+    display: block;
+}
+/* consimentos */
+/* bebidas */
+#menu-bebidas:hover .menu-bebidas-sub
+{
+    display: block;
+}
+/* bebidas */
+/* camada2 sub-topicos */
+aside
+{
+    height: 5vw;
+    max-height:50px;
+    border-radius: 10px;
+}
+.banner
+{
+
+    width: 100%;
+    max-width:100%;
+    height:5vw;
+    max-height: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+main
+{
+    margin-top: 0px;
+    margin: auto;
+    background-color:#f6a306;
+    max-width:700px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px; 
+}
+#teste
+{
+    background-color: rgb(82, 214, 82);
+    border-radius:10px;
+    width:40px;
+    line-height:10px;
+}
+a
+{
+    text-decoration: none;
+}

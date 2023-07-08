@@ -1,0 +1,26 @@
+@media(max-width:300px)
+{ul
+    {columns:1;}
+}
+@media(min-width:301px)
+{ul
+    {columns:2}
+}
+.video
+{
+    padding-bottom:70%;
+    margin-bottom: 1%;
+    position: relative;
+}
+iframe
+{
+    left:5%;
+    top:5%;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+ul
+{
+    list-style-type:none;
+}

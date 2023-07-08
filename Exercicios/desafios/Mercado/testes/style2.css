@@ -1,0 +1,230 @@
+
+@media(max-width:800px)
+{nav
+    {height: 20px; }
+}
+@media(min-width:900px)
+{nav
+    {height:20px;}
+}
+
+@media(max-width:900px)
+{#menu-mother, li
+    {font-size:1.7vw;}
+}
+@media(min-width:900px)
+{#menu-mother, li
+    {font-size:18px}
+}
+@media(max-width:650px)
+{#menu-mother, li
+    {font-size:10px}
+}
+
+
+/* fonte header*/
+@media(min-width:900px)
+{h1#menu
+    {font-size:25px}
+}
+@media(max-width:900px)
+{h1#menu
+    {font-size: 2.5vw;}
+}
+@media(max-width:650px)
+{h1#menu
+    {font-size: 18px;}
+}
+
+
+/* media querry */
+
+/* global */
+*{
+    margin: 0px;
+    padding: 0px;
+    ;
+  }
+/* global */
+
+/* parte de cima do cabeçalho (logo e etc...) */
+#menu-compelto
+{
+    height: ;
+    width: 100%;;
+    display: flex;
+    position: fixed;
+}
+header
+{
+    padding: 0px 0px 1px 0px;
+    max-height: 75px;
+    height:75px;
+    position: relative;
+    text-align: center;
+    background-color: brown;
+}
+.bar
+{
+    margin-bottom: 0px;
+    position: absolute;
+    width: 100%;
+    border:solid gold;
+    border-width:2.5px 0px 0px 0px;
+}
+#bar1
+{
+ margin-top:10px;
+}
+#bar2
+{
+    margin-top: 25px;
+}
+#bar3
+{
+   margin-top: 40px;
+}
+img#logo
+{
+    max-width: 100%;
+    max-height:50px;
+    position: relative;
+}
+h1
+{
+    position:;
+    margin: 0px;
+    padding: 0px;
+    font-size:5vw
+}
+/* parte de cima do cabeçalho (logo e etc...) */
+
+/* barra colorida abaixo do cabeçalho */
+    /* obs ela fica por tras do menu (nav) */
+nav
+{
+    height: 25px;
+    max-width: 100%;
+    background-color: brown;
+}
+/* barra colorida abaixo do cabeçalho */
+
+
+/* menu (parte sem interatividade)*/
+#menu-mother
+{
+    position:absolute;
+    margin: 0px;
+}
+li.sub
+{
+    margin: 0px 0px 0px 25%;
+    position: absolute;
+    display: inline;
+}
+#menu3
+{
+    margin: 0px 0px 0px 50%;
+}
+/* menu (parte sem interatividade)*/
+
+
+/* menu parte interativa */
+/*
+ .
+ .
+ . 
+*/
+
+/* camada 1 topicos */
+li#visivel
+{
+    display: block;
+}
+li
+{
+    display: none;
+}
+ul#menu-mother:hover li.camada1
+{
+    display: block;
+}
+/* fim camada 1 topicos */
+/*
+.
+.
+. 
+*/
+
+/* camada2 sub-topicos */
+
+/* padaria */
+#menu-padaria:hover  .menu-padaria-sub
+{
+    display: block;
+}
+/* padaria */
+
+/* consimentos */
+#menu-condimentos:hover .menu-condimentos-sub
+{
+    display: block;
+}
+/* consimentos */
+/* bebidas */
+#menu-bebidas:hover .menu-bebidas-sub
+{
+    display: block;
+}
+/* bebidas */
+/* camada2 sub-topicos */
+
+/*
+.
+.
+. 
+*/
+/* menu parte interativa */
+
+/* corpo */
+
+main
+{
+    position: inherit;
+    background-color: gold;
+    margin: auto;
+   text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+img
+{ 
+  max-width: 100%;
+}
+
+#ofertas
+{
+    display: inline-block;
+}
+
+.Ofertas
+{
+    text-align: justify;
+    border: 1px solid;
+    display: inline-block;
+    width: 20%;
+    height: 20vw;
+}
+article
+{
+    text-align: center;
+    margin-top: 24vw;
+}
+footer
+{
+    background-color: brown;
+    width: 100%
+}
+/* corpo */

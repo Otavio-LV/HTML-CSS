@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <title>Midias em HTML5</title>
+        <link rel="shortcut icon" href="grande6.png" type="image/png">
+        <style>
+            body
+            {
+                background-color: burlywood;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Imagens dinâmicas</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+        <Picture>
+            <source media="(max-width:450px )" srcset="grande6.png" type="image/png">
+            <source media="(max-width:550px )" srcset="grande5.png" type="image/png">
+            <source media="(max-width:650px )" srcset="grande4.png" type="image/png">
+            <source media="(max-width:750px )" srcset="grande3.png" type="image/png">
+            <source media="(max-width:850px )" srcset="grande2.png" type="image/png">
+            <source media="(max-width:950px)" srcset="grande1.png">
+            <source media="(max-width:1050px)" srcset="fotos/media.png" type="image/png">
+            <img src="fotos/grande.png"alt="Imagem flexível">
+        </Picture>
+        <audio controls>
+            <source src="SnapSave.io - Justin Bieber - One Time (Official Music Video) (128 kbps).mp3" type="audio/mpeg">
+            <p>infelizmente</p>
+        </audio>
+        <br>
+        <figure>
+            <img src="midia/" alt="">
+            <figcaption style="position: relative;margin:-10px; left: 15px;">a</figcaption>
+        <audio src="SnapSave.io - Justin Bieber - One Time (Official Music Video) (128 kbps).mp3" controls></audio>
+        </figure>
+    </body>
+</html>

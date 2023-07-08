@@ -1,0 +1,40 @@
+    .prin
+    {
+        left: 0px;
+        position: absolute;
+        width: 300px;
+        height: 300px; 
+    }
+    .select
+    {
+        position: inherit;
+        margin-top:300px;
+        width: 30px;
+        height: 30px;
+    }
+    img#select1:hover ~ img#img1
+    {
+        display: inline-block;
+    }
+    img#select2:hover ~ img#img1
+    {
+        display: none;
+    }
+    img#select2:hover ~ img#img2
+    {
+        padding-bottom: 0px;
+        display: inline-block;
+    }
+    #img2:hover ~ #img1 
+    {
+        display: none;
+    }
+    #img2:hover ~ #img2
+    {
+        display: block;
+        padding-bottom:20px;
+    }
+    #select3:hover ~ #img1, #img2
+    {
+        display: none ;
+    }

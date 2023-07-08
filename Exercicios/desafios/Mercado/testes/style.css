@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+header
+{
+    background-color: brown;
+}
+img
+{
+    max-width: 100px;
+}
+body
+{
+    background-color: black;
+    text-align: center;
+}
+main
+{
+    margin: auto;
+    background-color: white;
+ max-width: 800px;   
+}

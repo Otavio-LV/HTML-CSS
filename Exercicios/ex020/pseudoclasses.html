@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        div
+        {
+            display:inline-block;
+            background-color: aquamarine;
+            width: 200px;
+            height:200px;
+            border:1px solid black;
+            text-align:center;
+        }
+
+        
+        div:hover {color: rgb(45, 12, 75); font-size: 35px; border-radius:300px}
+
+
+        #a>p
+        {
+            color:blue
+        }
+
+        a:active{background-color:black}
+
+
+        #a:hover
+        {
+            background-color: brown; width: 300px;
+        }
+        
+
+        #b:hover
+        {
+            background-color:blueviolet; width: 300px;
+        }
+
+
+        #c:hover
+        {background-color: blue; width: 300px; text-align: center;
+        }
+        
+        
+        #texto:hover
+        {
+            color: white;
+            background-color: black; font-size: 2em;
+            text-indent: 10px; 
+        } 
+
+
+        #texto > #lista 
+        {
+            color:aqua
+        }
+
+
+        div#menu
+        {   
+            background-color: transparent; width: auto; height: auto; border: none; text-align: justify; display: block;
+        } 
+
+
+        #menu:hover>ul
+        {
+            display:block
+        }
+
+
+        #menu>ul
+        {
+            display:none
+        }
+
+
+        #menu>p>img
+        {
+            width:50px; height: 50px;
+        }
+
+
+        #menu>p 
+        {
+            width: auto;
+        }
+
+        
+        #l
+        {
+            background-color: black; width: 300px; color:white
+        }
+        
+
+        a{color:rgb(250 250 250);
+        text-decoration:none}
+        a:visited {color:blue}
+        a:hover{text-decoration:underline; color:aqua}
+        a:active{color:palevioletred}
+        
+        div::after{content:'a' ;}
+
+</style>
+</head>
+<div id="menu">
+    <p>
+        <img src="img/menu.jpg" alt="imagem de menu"> <br>
+        <ul id="l">
+            <li><a href="https://www.youtube.com" target="_blank" rel="nofollow">a</a></li>
+        </ul>
+    </p>
+</div>
+<body>
+    <div id="a">01
+        <p>a</p>
+    </div>
+    <div id="b">02</div>
+    <div id="c">03</div>
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+@font-face
+{
+    font-family:'open-sans';
+    src:url('fonts/OpenSans-Regular.ttf')
+    format(truetype)
+}
+@media(max-width:600px)
+{#videos
+    {
+        background-color: aqua;
+    }
+
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+header
+{
+    display: grid;
+background-color: rgb(196, 23, 12);
+}
+nav
+{
+    margin-top: 5px;
+    position: absolute;
+    display:inline-block;
+}
+
+nav:hover .menu
+{
+    transform: translateX(70px);
+
+}
+
+ul.menu
+{
+    list-style-position:outside;
+    left:-70px;
+    position: absolute;
+    transition-duration: 0.5s;
+}
+.topico:hover ul.menu
+{
+    color: aqua;
+}
+.topico:hover .camada2
+{
+display: block;
+}
+ul.camada2
+{
+    display: none;
+}
+
+p
+{
+    color:white;
+    font:normal normal 20px cursive, sans-serif;
+    text-align: center;
+    display:inline-block;
+}
+li::before, li::after
+{ 
+    content:'\2757';
+}
+
+div.video
+{
+    background-color: red;
+    position: relative;
+    padding-bottom: 58%;
+}
+.video>iframe
+{
+    position: absolute;
+    left: 5%;
+    top:5%;
+    max-width: 100%;
+    width: 90%;
+    height:90%;
+}

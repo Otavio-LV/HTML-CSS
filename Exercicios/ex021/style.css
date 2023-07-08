@@ -1,0 +1,85 @@
+@charset "UTF-8";
+*{color:whitesmoke; text-shadow: 10px 10px 5px rgb(194, 194, 194); border-radius:5px 25px 25px 0px;
+}
+
+body 
+{
+    background-color: gainsboro;
+    background-image: url("baixados.jpg");
+    box-shadow: 5px 5px 10px rgb(194, 194, 194);
+}
+
+header
+{
+    background-color: rgb(37, 24, 12);
+}
+
+main 
+{
+    background-color: rgb(3, 66, 7);
+    margin: 0px;
+    margin:auto ;
+    height: max-content;
+}
+
+.item
+{
+    padding: 50px;
+    display: inline-block;
+}
+
+#t2
+{
+    padding:10px;
+}
+
+#t2:active
+{
+    color: aqua; background-color: blue;
+}
+#t2:hover
+{
+    content: url("baixados.jpg" );
+    width: 100px; background-color: beige;
+}
+
+a:active
+{
+    color: black;
+}
+
+footer
+{
+    text-align: center;
+    padding:1px;
+    margin:1px;
+    background-color: rgb(37, 24, 12);
+}
+
+a
+{
+    text-decoration: none; margin: 10px; color: rgb(4, 62, 8);
+}
+
+nav
+{
+    background-color: rgb(50, 81, 241); text-align: center;
+}
+
+#ft
+{
+    padding: 3px;
+    margin: 0px;
+    font:italic normal 10px sans-serif
+}
+
+#Materias
+{
+    width: auto; margin: auto; text-align: center;
+}
+
+#a
+{
+    background-color:rgb(37, 24, 12);
+     margin:0px; padding: 0px 10px; 
+}

@@ -1,0 +1,21 @@
+#img1
+{
+
+}
+.prin
+{
+    position: absolute;
+    width: 300px;
+    height: 300px; 
+}
+.select
+{
+    position: inherit;
+    margin-top:310px;
+    width: 30px;
+    height: 30px;
+}
+img#select:hover ~ img#img1
+{
+    display: none;
+}

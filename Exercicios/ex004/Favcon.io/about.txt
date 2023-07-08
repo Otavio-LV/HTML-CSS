@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Inter Tight
+- Font Author: Copyright 2022 The Inter Project Authors (https://github.com/rsms/inter-tight)
+- Font Source: http://fonts.gstatic.com/s/intertight/v2/NGShv5HMAFg6IuGlBNMjxLsC66ZMtb8hyW62x0xCHi5XgqoUPvi5.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

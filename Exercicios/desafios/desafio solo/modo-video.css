@@ -1,0 +1,20 @@
+@charset "utf-8";
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+main
+{
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+}
+main iframe
+{
+    position: absolute;
+    max-width: 100%;
+    width:100vw;
+    height:100vh;
+    
+}
