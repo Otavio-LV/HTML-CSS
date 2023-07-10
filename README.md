@@ -1,3 +1,3 @@
 # HTML-CSS
  Estudos de desenvolvimento web com Curso Em VIideo
- <a href:Exercicios\desafios\desafio 10\desafio.html>desafio10</a>
+ <a href="https://otavio-lv.github.io/HTML-CSS/Exercicios/desafios/desafio%2010/desafio.html">Executar site "bug-droid"<a>
