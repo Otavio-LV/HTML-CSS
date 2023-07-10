@@ -39,8 +39,16 @@ nav>a
     color:white;
     text-decoration:none;
     text-shadow:0px 5px 5px rgb(0, 0, 0);
-    margin: 10px 10px 0px 10px;
-    font:normal bold 0.7em sans-serif
+    margin: 10px 0px 0px 0px;
+    font:normal bold 0.7em sans-serif;
+    transition-duration: 1s;
+    padding: 5px;
+    border-radius:5px;
+}
+nav>a:hover
+{
+    box-shadow: 10px 10px 10px black;
+    background-color: rgb(42, 243, 42);
 }
 main
 {
@@ -111,13 +119,18 @@ aside>p#principal
     background-color: rgb(7, 43, 7);
     padding: 5px 5px;
 }
+aside ul
+{
+
+    list-style-type:'\2714';
+} 
 section#li>article.li
 {
     display: inline-block;
     padding: 0px;
     margin: 0px 40px 0px 0px;
     max-width: 100%;
-    
+
 }
 section#li{text-align: left;
 max-width: 100%;}
