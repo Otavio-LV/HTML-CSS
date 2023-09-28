@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root
+        {
+            --bordas:1.5px solid black;
+            --altura:30vw;
+            --largura:30vw;
+            --display:inline-block;
+            --posição:center;
+            --radius:5%;
+
+        }
+        body
+        {
+            background-image: url(imagens/wallpaper001.jpg);
+            text-align: center;
+        }
+        .fundo
+        {
+            border: var(--bordas);
+            height: var(--altura);
+            width: var(--largura);
+            display: var(--display);
+            border-radius:var(--radius);
+        }
+        #fundo1
+        {
+            background-color:skyblue;
+        }
+        #fundo2
+        {
+            background-image: linear-gradient(to top, red, orange, yellow, white 198px);
+        }
+        #fundo3
+        {
+            background-image: url(imagens/pattern003.png);
+        }
+        </style>
+</head>
+<body>
+ <div class="fundo" id="fundo1"></div>
+ <div class="fundo" id="fundo2"></div>
+ <div class="fundo" id="fundo3"></div>
+</body>
+</html>
