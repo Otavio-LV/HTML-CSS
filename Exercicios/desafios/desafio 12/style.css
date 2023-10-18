@@ -1,3 +1,38 @@
+@media (min-width:300px) 
+    {
+        h1 {
+            font-size: 24px;
+        }
+    }
+
+@media (min-width:1000px){
+    
+    h1 
+    { font-size:30px;
+    }
+    }
+@media (min-width:300px)
+{
+    header p
+    {
+        font-size:16px;
+    }
+}
+@media (min-width:1000px)
+{
+    header p
+    {
+        font-size:20px;
+    }
+}
+@media (min-widht:300px)
+{
+    #p1
+    {
+        font-size:1px;
+    }
+}
+
 *
 {
     margin:0px;
@@ -24,25 +59,88 @@ header section
     transform: translateX(-50%)
     translateY(-50%);
 }
+a
+{
+    color:white;
+    text-decoration:none;
+}
+a:visited
+{
+    
+    color:rgb(255, 255, 255)
+}
+a:hover
+{
+    transition-duration: 0.8s;
+    color: white;
+    border-radius:10px;
+    background-color: #ffffff14;
+    text-decoration: none;
+    text-decoration: underline;
+    box-shadow:#ffffff36 0px 2px 8px;
+}
 main
 {
     max-width: 100%;
-    padding:75px 0px 0px 0px;
+    padding:70px 0px 0px 0px;
 }
 .window
 {
+    box-shadow:rgba(0, 0, 0, 0.655) 0px 0px 10px;
     color:white;
     background-size:contain;
-    border:1px solid black;
+    width: 100%;
+    height: 80vh;
 }
 .window p
 {
-    font:bold normal 13px cursive, sans-serif;
-    margin:45px 0px 50px 5px;
+    position: relative;
+    top:50%;
+    transform: translate(0%, -50%);
     background-color: rgba(0, 0, 0, 0.295);
-    padding: 5px 10px 5px 10px;
+    text-shadow: rgb(00,00,00) 0.5vw 0.5vw 2px;
+    padding: 10px;
+
+}
+main p
+{
+    margin-left: 10px;
+    text-shadow: rgba(0, 0, 0, 0.285) 0.5vw 0.5vw 2px;
+    font-weight:bold;
+    font-family: cursive, sans-serif;
     line-height: 30px;
-    max-width: 42%;
+    width:42.4%;
+    max-height:60%;
+}
+.no-background
+{
+    width: 100%;
+    height: 60vh;
+}
+.p2
+{
+    margin-bottom: 11vh;
+}
+#p2
+{
+    padding: 10vw 0px;
+    width: 100%;
+    height: auto;
+}
+#p2 p
+{
+    margin-top: 11vh;
+    margin-bottom: 6vh;
+    position: relative;
+    top:0%;
+    transform: translate(0%, -0%);
+}
+.no-background p
+{
+    position: relative;
+    top:50%;
+    transform: translate(0%, -50%);
+
 }
 #background1
 {
@@ -52,22 +150,6 @@ main
 #background2
 {
     background:black url(imagens/imagens/background002.jpg) center no-repeat fixed;
-}
-.no-background
-{
-
-}
-
-.no-background p
-{
-    font:bold normal 13px cursive, sans-serif;
-    padding: 45px 10px 50px 10px;
-    line-height: 25px;
-    max-width: 40%;
-}
-p.p1
-{
-    padding-bottom:0px;
 }
 footer
 {
